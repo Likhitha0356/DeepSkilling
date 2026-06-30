@@ -6,7 +6,7 @@ public class TestFactoryMethod {
         Document word = wordFactory.createDocument();
         word.open();
 
-        DocumentFactory pdfFactory = new PdfDocumentFactory();
+        DocumentFactory pdfFactory = new PdfDocumentFactory();  
         Document pdf = pdfFactory.createDocument();
         pdf.open();
 
